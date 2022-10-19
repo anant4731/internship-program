@@ -26,22 +26,20 @@
   text-align: center;
 }
 
-.para
-{
+.para {
   font-size: 30px;
   color: white;
   text-align: center;
   width: 70%;
 }
 
-.buttons
-{
+.buttons {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.buttons a{
+.buttons a {
   text-decoration: none;
   border: 2px solid #66fcf1;
   padding: 10px 50px;
@@ -126,6 +124,18 @@
   animation-duration: 11s;
 }
 
+@media only screen and (max-width: 600px) {
+  .header {
+    width: 100%;
+  }
+  .buttons {
+    flex-direction: column;
+  }
+  .para{
+    font-size: 25px;
+  }
+
+}
 @keyframes animate {
   0% {
     transform: translateY(0) rotate(0deg);
@@ -139,5 +149,3 @@
     /* border-radius: 50%; */
   }
 }
-
-

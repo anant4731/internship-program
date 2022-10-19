@@ -5,7 +5,7 @@ const Focus = (props) => {
   return (
     <GeneralContainer>
         <div>
-            <h1>Heading</h1>
+            <h1>Areas of Focus</h1>
             <h3>SubHeading</h3>
         </div>
       <div className={classes.container}>
