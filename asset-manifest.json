@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/internship-program/static/css/main.b9e243c1.css",
-    "main.js": "/internship-program/static/js/main.d76521ca.js",
+    "main.css": "/internship-program/static/css/main.b358bd29.css",
+    "main.js": "/internship-program/static/js/main.be15a618.js",
     "static/js/787.e752235b.chunk.js": "/internship-program/static/js/787.e752235b.chunk.js",
     "static/media/landingPageImage.jpg": "/internship-program/static/media/landingPageImage.e2aa3220f1fee6ccbbf6.jpg",
     "static/media/bannerImg.jpg": "/internship-program/static/media/bannerImg.011274adfe8245ed6aeb.jpg",
     "static/media/projects.jpg": "/internship-program/static/media/projects.1af9c8d105ee5ca86575.jpg",
     "index.html": "/internship-program/index.html",
-    "main.b9e243c1.css.map": "/internship-program/static/css/main.b9e243c1.css.map",
-    "main.d76521ca.js.map": "/internship-program/static/js/main.d76521ca.js.map",
+    "main.b358bd29.css.map": "/internship-program/static/css/main.b358bd29.css.map",
+    "main.be15a618.js.map": "/internship-program/static/js/main.be15a618.js.map",
     "787.e752235b.chunk.js.map": "/internship-program/static/js/787.e752235b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9e243c1.css",
-    "static/js/main.d76521ca.js"
+    "static/css/main.b358bd29.css",
+    "static/js/main.be15a618.js"
   ]
 }
