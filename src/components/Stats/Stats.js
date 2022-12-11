@@ -12,7 +12,6 @@ const Stats = (props) => {
     <GeneralContainer>
       <div>
         <h1>Our 2021 Data</h1>
-        <h3>SubHeading</h3>
       </div>
       <div className={classes.container}>
         <div>

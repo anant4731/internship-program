@@ -1,6 +1,6 @@
 .footer {
   width: 100%;
-  min-height: 70vh;
+  min-height: 90vh;
   background-color: #232323;
   display: flex;
   justify-content: space-evenly;
@@ -33,7 +33,7 @@
 }
 
 .lastline {
-    color: white;
+  color: white;
   width: 100%;
   display: flex;
   align-items: center;
@@ -42,4 +42,79 @@
 }
 .container div a:hover {
   color: white;
+}
+
+.contact_form div {
+  align-items: center;
+  text-align: center;
+}
+
+.form__input {
+  margin: 15px 5px;
+  padding: 10px 10px;
+  width: 250px;
+  outline: none;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -ms-transition: 0.2s ease all;
+  -o-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+
+.form__input__email {
+  margin: 5px 5px;
+  padding: 10px 10px;
+  width: 400px;
+  outline: none;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -ms-transition: 0.2s ease all;
+  -o-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+
+.form__button {
+  margin: 5px 5px;
+  padding: 7px 25px;
+  border: 1px solid #bbb;
+  color: white;
+  background-color: rgb(22, 133, 22);
+  border-radius: 3px;
+}
+
+.form__and__logo {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo{
+  width: 200px;
+}
+
+@media all and (max-width: 880px) {
+  .form__input {
+    width: 80%;
+    margin: 10px 0;
+  }
+
+  .form__input__email {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .form__input__email {
+    margin: 10px 0;
+  }
 }

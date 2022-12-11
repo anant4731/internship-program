@@ -21,7 +21,7 @@
 }
 
 .content {
-  background-color: #232323;
+  background-color: #3C4048;
   transform: translateY(-150px);
   display: flex;
   align-items: center;
@@ -48,10 +48,12 @@
 .content p {
   color: white;
   text-align: center;
+  padding: 0 20px;
+  
 }
 
 .container:hover {
-  background-color: #232323;
+  background-color: #3C4048;
 }
 .container:hover .content {
   transform: translateY(0px);

@@ -1,0 +1,30 @@
+.contact__form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.input1 {
+  width: 80%;
+  height: 100%;
+}
+
+.input2 {
+  width: 80%;
+}
+
+.input {
+  margin: 1rem 0;
+}
+
+@media all and (max-width: 900px) {
+    .input1{
+        width: 100%;
+    }
+    .input2 {
+        width: 100%;
+    }
+  .contact__form {
+    flex-direction: column;
+  }
+}

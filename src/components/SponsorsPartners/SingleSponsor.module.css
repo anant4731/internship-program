@@ -1,0 +1,27 @@
+.container {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #e5e5e5;
+  background-color: white;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  overflow: hidden;
+  padding: 0;
+}
+
+.container:hover {
+  box-shadow: 0 0 0.5em 0 rgb(0, 0, 0);
+  z-index: 5;
+}
+
+.container img {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+  width: 200px;
+  height: 220px;
+}
